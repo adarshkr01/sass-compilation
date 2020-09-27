@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+    .showcase {
+        height: 600px;
+
+        .container {
+            padding: 10px 15px;
+            .logo {
+                font-size: 15px;
+            }
+
+            nav ul li {
+                padding: 5px;
+            }
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        &-content {
+            flex-direction: column;
+            text-align: center;
+            margin-top: 80px;
+
+            p {
+                margin: 50px auto;
+                max-width: 300px;
+            }
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}

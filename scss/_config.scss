@@ -1,0 +1,14 @@
+$ligth-color: #f4f4f4;
+$font-family: Arial, Helvetica, sans-serif;
+$font-size: 14px;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
+
+// Set text color based on background
+@function set-text-color($color) {
+    @if (lightness($color) > 70) {
+        @return 333;
+    } @else {
+        @return #fff;
+    }
+}
